@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-bottom: 30px;
+  }
+  
+  .overlay button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    background-color: #00c9a7;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .overlay button:hover {
+    background-color: #00a88f;
+  }
+  

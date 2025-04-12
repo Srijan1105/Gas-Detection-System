@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gas Detection Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="main-container">
+    <h1>🚨 Gas Detection Dashboard</h1>
+    <div class="cards">
+      <div class="card gas">
+        <i class="fas fa-exclamation-triangle icon"></i>
+        <h2>Gas Level</h2>
+        <p id="gas-status" class="safe">Safe</p>
+      </div>
+
+      <div class="card temp">
+        <i class="fas fa-thermometer-half icon"></i>
+        <h2>Temperature</h2>
+        <p id="temperature">-- °C</p>
+      </div>
+
+      <div class="card humidity">
+        <i class="fas fa-tint icon"></i>
+        <h2>Humidity</h2>
+        <p id="humidity">-- %</p>
+      </div>
+    </div>
+
+    <button class="simulate-btn" onclick="simulateSensor()">Simulate Reading</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
